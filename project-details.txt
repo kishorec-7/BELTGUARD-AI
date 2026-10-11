@@ -1,0 +1,41 @@
+BELTGUARD AI — PROJECT DETAILS
+================================
+
+Team: Spark Spectrum
+Event: Smart India Hackathon 2026
+Problem Statement ID: SIH26008
+Theme: Smart Automation
+Category: Hardware
+
+PROJECT SUMMARY
+BELTGUARD AI is a proposed intelligent monitoring and predictive-protection system for conveyor-belt joints in the iron-ore mining industry. It aims to detect visible cracks, tears and separations and combine image inspection with sensor readings to assess joint condition.
+
+PROBLEM
+Conveyor-belt joints face heavy loads, continuous vibration, belt tension, abrasive ore and dusty operating conditions. Damage can develop between manual inspections and may cause material spillage, unexpected failures and downtime.
+
+PROPOSED WORKFLOW
+1. Capture belt-joint images using a camera.
+2. Process images using computer vision and an AI image-classification model.
+3. Collect available sensor and operating data.
+4. Combine image and sensor information to calculate an indicative belt-joint health score.
+5. Classify the condition into risk levels and display the result on a dashboard.
+6. Alert an operator so that inspection or maintenance can be planned.
+7. Use motor stop/speed control only where the control hardware and safety logic have been implemented and tested.
+
+TECHNOLOGIES DESCRIBED IN THE PRESENTATION
+- Raspberry Pi 4 for edge processing
+- ESP32-S3 / ESP32-based sensor interface
+- Camera, OpenCV and CNN-based image classification
+- Vibration, temperature, sound, load and tension measurements
+- PLC, VFD and relay-based motor-control concepts
+- Modbus communication where supported by the equipment
+
+REPOSITORY CONTENTS
+- docs/BELTGUARD_AI_Presentation.pdf — six-page SIH 2026 presentation
+- README.md — repository overview
+
+IMPORTANT STATUS NOTE
+This repository currently shares the project presentation and description. Proposed accuracy, warning-time and downtime-reduction figures in the presentation are targets, not verified test results unless supported by actual experiments. Add code, datasets, circuit/wiring diagrams and test results only when they are ready to share.
+
+Project name: BELTGUARD AI
+Team name: Spark Spectrum
